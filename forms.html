@@ -17,12 +17,18 @@
 	<form action="https://www.wikipedia.org/" method="GET">
 		
 		<!-- we must link the label and input so that user with disabilities can access the webpage properly -->
-		
+
 		<label for="username">UserName : </label>
-		<input id="username" type="text" placeholder="Username">
+		<input id="username" type="text" placeholder="Username" required>
 		
+		<!-- required is a boolean attribute which makes sure that input is mandatory -->
+		<!-- type = "email" invokes validation -->
+
+		<label for="email">Email : </label>
+		<input id="email" type="email" placeholder="Email" required>
+
 		<label for="password">Password : </label>
-		<input id="password" type="Password" placeholder="Password">
+		<input id="password" type="Password" placeholder="Password" required>
 		
 		<!-- both can be used -->
 		<input type="Submit" value="Login">
