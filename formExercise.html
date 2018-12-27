@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+
+
+
+		<label for="FirstName">First Name : </label>
+		<input id="FirstName" type="text" placeholder="Type Here" name="FirstName" required="">
+
+		<label for="LastName">Last Name : </label>
+		<input id="LastName" type="text" placeholder="Type Here" name="LastName" required="">
+
+		<br>
+
+		<!-- We need to add the required attribute to only one of the radio input tags -->
+
+		<label for="male">Male </label>
+		<input id="male" type="radio" name="Gender" value="MALE" required="">		
+
+		<label for="female">Female </label>
+		<input id="female" type="radio" name="Gender" value="FEMALE">		
+
+		<label for="other">Other </label>
+		<input id="other" type="radio" name="Gender" value="OTHER">		
+
+		<br>
+
+		<label for="email">Email : </label>
+		<input id="email" type="email" placeholder="Your Email" name="Email" required="">
+
+		<label for="password">Password : </label>
+		<input id="password" type="password" minlength="5" maxlength="10" placeholder="Your password" name="Password" required="">
+
+		<br>
+
+		<label for="dob">Birthday</label>
+
+		<select id="dob" name="Month" required="">
+			<option value="" disabled selected>Month</option>
+			<option value="01" >JAN</option>
+			<option value="02" >FEB</option>
+			<option value="03" >MAR</option>
+			<option value="04" >APR</option>
+		</select>
+
+		<select id="dob" name="Day" required="">
+			<option value="" disabled selected>Day</option>
+			<option value="01" >1</option>
+			<option value="02" >2</option>
+			<option value="03" >3</option>
+			<option value="04" >4</option>
+		</select>
+
+		<select id="dob" name="Year" required="">
+			<option value="" disabled selected>Year</option>
+			<option value="2001" >2001</option>
+			<option value="2002" >2002</option>
+			<option value="2003" >2003</option>
+			<option value="2004" >2004</option>
+		</select>
+
+		<br>
+
+		<label for="terms">I agree to the terms and conditions </label>
+		<input id="terms" type="checkbox" name="terms" value="TRUE" required="">
+
+		<br>
+
+		<button>Submit</button>
+
+	</form>
+</body>
+</html>
