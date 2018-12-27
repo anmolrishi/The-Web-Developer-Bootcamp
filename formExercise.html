@@ -36,34 +36,38 @@
 			<label for="password">Password : </label>
 			<input id="password" type="password" minlength="5" maxlength="10" placeholder="Your password" name="Password" required="">
 		</div>
+		
 		<div>
+			<fieldset>
+				<legend>Birthday:</legend>
+				
+				<label for="Month">Month</label>
+				<select id="Month" name="month" required="">
+					<option value="" disabled selected>Month</option>
+					<option value="01" >JAN</option>
+					<option value="02" >FEB</option>
+					<option value="03" >MAR</option>
+					<option value="04" >APR</option>
+				</select>
 
-			<label for="dob">Birthday</label>
+				<label for="Day">Day</label>
+				<select id="Day" name="day" required="">
+					<option value="" disabled selected>Day</option>
+					<option value="01" >1</option>
+					<option value="02" >2</option>
+					<option value="03" >3</option>
+					<option value="04" >4</option>
+				</select>
 
-			<select id="dob" name="Month" required="">
-				<option value="" disabled selected>Month</option>
-				<option value="01" >JAN</option>
-				<option value="02" >FEB</option>
-				<option value="03" >MAR</option>
-				<option value="04" >APR</option>
-			</select>
-
-			<select id="dob" name="Day" required="">
-				<option value="" disabled selected>Day</option>
-				<option value="01" >1</option>
-				<option value="02" >2</option>
-				<option value="03" >3</option>
-				<option value="04" >4</option>
-			</select>
-
-			<select id="dob" name="Year" required="">
-				<option value="" disabled selected>Year</option>
-				<option value="2001" >2001</option>
-				<option value="2002" >2002</option>
-				<option value="2003" >2003</option>
-				<option value="2004" >2004</option>
-			</select>
-
+				<label for="Year">Year</label>
+				<select id="Year" name="year" required="">
+					<option value="" disabled selected>Year</option>
+					<option value="2001" >2001</option>
+					<option value="2002" >2002</option>
+					<option value="2003" >2003</option>
+					<option value="2004" >2004</option>
+				</select>
+			</fieldset>
 		</div>
 
 		<div>
