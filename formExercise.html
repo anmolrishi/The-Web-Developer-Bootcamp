@@ -34,7 +34,7 @@
 			<input id="email" type="email" placeholder="Your Email" name="Email" required="">
 
 			<label for="password">Password : </label>
-			<input id="password" type="password" minlength="5" maxlength="10" placeholder="Your password" name="Password" required="">
+			<input id="password" type="password" pattern=".{5,10}"  placeholder="Your password" name="Password" required title="Password length must be between 5 and 10">
 		</div>
 		
 		<div>
