@@ -1,11 +1,9 @@
 h1 {
-	color: red;
+	color: #F400DD;
+	/*HEX  CODES FOLLOW #RRGGBB pattern
+	So, #FF0000 is red
+	#00FF00 is green
+	#FFFFFF is white
+	#000000 is black*/
 }
 
-li {
-	color: green;
-}
-
-h4 {
-	color: purple;
-}
