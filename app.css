@@ -7,11 +7,36 @@ h1 {
 	#000000 is black*/
 }
 
+/*BORDERS ideally
+width
+color
+style*/
+
 h1 {
 	color: rgb(0,0,0);
 	/*rgb uses decimal values as parameters*/
 	/*each value should lie between 0 to 255*/
 
+	
+	/*BORDERS 
+	ideally the following 3 attributes are enough
+	width
+	color
+	style*/
+
+	/*But we also get a border by just writing border-style: */
+
+	/*precedence increases*/
+
+
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid; 
+
+
+	/*SHORTHAND*/
+	/*border: width style color;*/
+	border: 5px dotted blue;
 }
 
 h1 {
@@ -20,4 +45,24 @@ h1 {
 	/*a stands for the alpha value which signifies the transparency of the signified color*/
 	/*a lies between 0 to 1
 	and values for rgb lie between 0 to 255*/
+}
+
+h4 {
+	background: rgb(255,100,100);
+}
+
+body {
+	/*for images*/
+	background: url(https://www.garnavillo.lib.ia.us/images/woodgrain/image);
+	
+	/*to prevent images from repeating*/
+	/*To specify the repetition properties*/
+	background-repeat: no-repeat;
+
+
+	/*to stretch the image to cover the entire screen*/
+	/*To specify the background size*/
+	background-size: cover;
+
+	background: pink;
 }
