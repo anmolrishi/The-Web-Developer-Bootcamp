@@ -7,3 +7,17 @@ h1 {
 	#000000 is black*/
 }
 
+h1 {
+	color: rgb(0,0,0);
+	/*rgb uses decimal values as parameters*/
+	/*each value should lie between 0 to 255*/
+
+}
+
+h1 {
+	color: rgba(0,0,0,0.5);
+	/*rgba also uses decimal values as parameters*/
+	/*a stands for the alpha value which signifies the transparency of the signified color*/
+	/*a lies between 0 to 1
+	and values for rgb lie between 0 to 255*/
+}
