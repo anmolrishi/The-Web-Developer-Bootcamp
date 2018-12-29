@@ -1,0 +1,35 @@
+PDF course slides
+https://drive.google.com/drive/folders/0B7qHXcyKO8LKWGdpcXQtM2liUjQ
+
+Past student shared some pretty comprehensive course notes
+https://drive.google.com/drive/folders/12jCkOQCAtXoxxpwfevuWDlYgWj6ryh3N
+
+CSS color names
+http://colours.neilorangepeel.com/
+
+RGB Hex codes
+https://www.w3schools.com/colors/colors_picker.asp
+
+30 CSS Selectors that one must learn(Not really though)
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+CSS KEEGAN specificty calculator
+https://specificity.keegan.st/
+
+Styling a checkbox
+https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css
+
+Styling checked input checkboxes
+https://www.w3schools.com/csSref/sel_checked.asp
+
+Changing case
+https://love2dev.com/blog/css-text-transform/
+
+Bacon Ipsum - a meatier lorem ipsum
+https://baconipsum.com/?paras=5&type=all-meat&start-with-lorem=1
+
+CSS Font stack
+https://www.cssfontstack.com/
+
+google fonts
+https://fonts.google.com/
