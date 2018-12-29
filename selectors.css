@@ -1,0 +1,61 @@
+/*Element*/
+li {
+
+}
+
+/*Id*/
+#name {
+
+}
+
+/*class*/
+.hello {
+
+}
+
+/*Star*/
+/*Selects everything on page*/
+* {
+
+}
+
+
+/*Descendent Selectors*/
+/*This selects all anchor tags which are present inside the li tag*/
+li a {
+
+}
+
+/*Adjacent Selectors*/
+/*All ul which are siblings of h1 and are below it*/
+
+h1 + ul {
+
+}
+
+/*Attribute Selectors*/
+/*The tag followed by the attribute inside square brackets*/
+/*This will select all anchors which link to google.com*/
+a[href="http://www.google.com"] {
+
+}
+
+input[type="password"] {
+
+}
+
+/*nth of type*/
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+/*It selects the 3rd li of each group*/
+/*
+li:nth-of-type(3) {
+	background: purple;
+}
+*/
+
+li:nth-of-type(even) {
+	background: purple;
+}
