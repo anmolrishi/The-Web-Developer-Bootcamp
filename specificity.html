@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+
+	<!-- The CSS specificity of elements remains unaffected by the order in which we mention them in the file -->
+
+	<!-- The order only matters when we explicitly mention two or more styles for the same element -->
+
+	<style type="text/css">
+		
+
+/*SPECIFICITY PRECEDENCE ORDER*/
+
+/*Type Selectors*/
+
+li {
+	
+}
+
+li a {
+	
+}
+
+li + a {
+	
+}
+
+/*Class, Attribute, and Pseudo-Class Selectors*/
+
+.hello {
+	
+}
+
+input[type="text"] {
+	
+}
+
+a:hover {
+
+}
+input:checked {
+	
+}
+
+/*ID Selectors*/
+
+#hello {
+
+}
+
+
+		/*ul {
+			color: purple;
+		}*/
+		ul {
+			color: green;
+		}
+
+		body {
+			color: red;
+		}
+
+		li {
+			color: orange;
+		}
+
+		.highlight {
+			color: red;
+		}
+
+		#special {
+			color: yellow;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<p>HELLO!!!</p>
+
+	<ul>
+		<li id="special" class="highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+</body>
+</html>
+
