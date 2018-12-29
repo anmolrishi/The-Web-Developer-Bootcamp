@@ -5,7 +5,7 @@ p {
 }
 
 h1 {
-	font-family: "Georgia";
+	font-family: 'Charm';
 }
 
 
@@ -35,6 +35,10 @@ span {
 
 /*font-weight*/
 
+h1 {
+	font-weight: normal;
+}
+
 p {
 	/*by default the value of font weight is normal
 	fonts also allow us to specify numeric font weight
@@ -59,7 +63,7 @@ h1 {
 }
 
 p {
-	text-align: right;
+	text-align: center;
 }
 
 /*text-decoration*/
