@@ -35,8 +35,41 @@ span {
 
 /*font-weight*/
 
+p {
+	/*by default the value of font weight is normal
+	fonts also allow us to specify numeric font weight
+	the range of which lies between 100 and 800 in steps of 100*/
+	font-weight: bold;
+}
+
 /*line-height*/
+
+/*line-height=x will increase the line size to x times its original value*/
+
+p {
+	line-height: 1.5;
+}
 
 /*text-align*/
 
+/*left right or center*/
+
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: right;
+}
+
 /*text-decoration*/
+
+/*Used for underline and strike thru effect*/
+
+h1 {
+	text-decoration: line-through;
+}
+
+p {
+	text-decoration: underline;
+}
