@@ -1,0 +1,26 @@
+td {
+	/*border-bottom: 2px solid black;*/
+	padding: 100px;
+	margin: 50px;
+}
+table {
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+}
+
+.middleColumn {
+	border-left: 2px solid black; 
+	border-right: 2px solid black;
+}
+
+.middleRow {
+	border-top: 2px solid black; 
+	border-bottom: 2px solid black;
+}
+
+.centre {
+	border: 2px solid black; 
+}
